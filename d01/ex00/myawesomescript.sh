@@ -4,4 +4,4 @@
 # read THIS
 # echo "so $THIS is what this is"
 
-curl bit.ly/1O72s3U | grep -Eoi "http\:\/\/(.+)\/\"" | cut -d \" -f1
+curl -sS bit.ly/1O72s3U | grep -Eoi "http\:\/\/(.+)\/\"" | cut -d \" -f1
